@@ -16,6 +16,7 @@ Before you begin, ensure you have the following installed:
 1. Clone this repository to your local machine:
 
    git clone https://github.com/your-username/firebase-crud-operations.git
+   
    cd firebase-crud-operations
 
 Install the required dependencies:
@@ -25,18 +26,19 @@ Configure your Firebase credentials in the project:
 
 Create a .env file in the root directory of the project and add the following:
 
-FIREBASE_API_KEY=your_api_key
-FIREBASE_AUTH_DOMAIN=your_auth_domain
-FIREBASE_PROJECT_ID=your_project_id
-FIREBASE_STORAGE_BUCKET=your_storage_bucket
-FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-FIREBASE_APP_ID=your_app_id
-FIREBASE_MEASUREMENT_ID=your_measurement_id
+FIREBASE_API_KEY = your_api_key
+FIREBASE_AUTH_DOMAIN = your_auth_domain
+FIREBASE_PROJECT_ID = your_project_id
+FIREBASE_STORAGE_BUCKET = your_storage_bucket
+FIREBASE_MESSAGING_SENDER_ID = your_messaging_sender_id
+FIREBASE_APP_ID = your_app_id
+FIREBASE_MEASUREMENT_ID = your_measurement_id
 
 You can get these credentials from your Firebase Console.
 
 Once you have configured the .env file, you can start the server using:
 npm run dev
+
 This will start the server with nodemon and auto-reload on file changes.
 API Endpoints
 
@@ -94,4 +96,6 @@ Example:
 {
   "id": "document_id_1"
 }
+
+====================================================END=============================================
 
